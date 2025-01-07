@@ -1,0 +1,196 @@
+header{
+    background-color:gold;
+    color:rgb(17, 16, 16);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 0%;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+}
+a{
+    color: black;
+}
+.Top-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+
+}
+.logo,.top{
+    flex:0 1 auto;
+    text-align: center;
+    margin:0 1px;
+}
+.logo img{
+    max-width: 100px;
+    height: auto;
+}
+body{
+    position: relative;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('z4dddov5.png')
+    
+}
+body::before{
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    bottom: 0; 
+    background-color: rgba(126, 116, 116, 0.8); 
+}
+.content{
+    position: relative;
+    z-index: 2; 
+    text-align: center; 
+    padding: 20px;
+}
+p{
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    text-align: center;
+    padding: 120px;
+    flex: 1;
+}
+
+.section1{
+    margin: 1px;
+    height: 100px;
+}
+.section2{
+    border-radius: 112px;
+    background-color: rgb(12, 11, 11);
+    padding: 10px;
+   
+    color: gold;
+    align-items: center;
+    margin: 20px;
+    
+}
+.login{
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    text-align: center;
+}
+.login-links{
+    padding:10px; 
+    border-radius: 8px;
+    box-shadow: 3 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 500px;
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 2px;
+    font-weight: bold;
+    text-align: left;
+}
+button{
+    border: none;
+    border-width: 10px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: gold;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+ /*
+.sidebar-nav {
+    width: 200px; Adjust the width as needed */
+   /* position: fixed;
+    padding: 10px;
+    border-radius: 10px;
+   
+    background-color: #333;
+    overflow-x: hidden; /* Prevent horizontal scrolling 
+    padding-top: 10px;
+}
+
+.sidebar-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* .sidebar-nav ul li {
+    padding: 8px 16px;
+    text-align: left;
+}
+
+.sidebar-nav ul li a {
+    display: block;
+    color:gold;
+    text-decoration: none;
+}
+
+.sidebar-nav ul li a:hover {
+    background-color: #575757; /* Change the background color on hover 
+}
+.Department-submenu{
+    display: none;
+}
+.sidebar-nav ul li:hover .departments-submenu,
+ .sidebar-nav ul li:focus-within .departments-submenu { 
+    display: block; 
+ }*/
+/*lets do for the student login*/
+.login{
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: gold;
+}
+.campus-map{
+    position: relative;
+    z-index: 2;
+    flex: 1;
+}
+
+ footer{
+    background-color: #333;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 10px;
+    color:gold;
+    position: relative;
+    z-index: 2;
+    bottom: 0;
+    text-align: center; 
+    padding: 10px;
+    position:fixed;
+    width: 100%;
+   
+ }

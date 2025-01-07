@@ -1,0 +1,155 @@
+body{
+    position: relative;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('z4dddov5.png')
+}
+.let{
+    justify-content: center;
+}
+body::before{
+    content: '';
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    bottom: 0; 
+    background-color: rgba(126, 116, 116, 0.8); 
+}
+.Top-logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+
+}
+.logo,.top{
+    flex:0 1 auto;
+    text-align: center;
+    margin:0 1px;
+}
+.logo img{
+    max-width: 100px;
+    height: auto;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.section2{
+    border-radius: 12px;
+    background-color: rgb(12, 11, 11);
+    padding: 10px;
+   
+    color: gold;
+    align-items: center;
+    margin: 20px;
+}
+
+header {
+    background-color:gold;
+    color:rgb(17, 16, 16);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 0%;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+header .logo img {
+    max-width: 80px;
+    height: auto;
+}
+
+header nav {
+    margin-left: auto;
+    justify-content: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+    align-items: center;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    
+    
+}
+
+header nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+/* Main Content Styles */
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    width: 200px;
+    transition: transform 0.3s;
+    position: relative;
+    z-index: 2;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 0%;
+    color:gold;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
+}
